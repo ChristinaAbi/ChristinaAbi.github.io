@@ -1,101 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></link>
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
     <title>Christina Louis-Charles</title>
 </head>
+
 <body>
-    <h1 class="title">
-        Christina Codes!
-    </h1>
-    <h2>
-        Dedicated to making the Fashion Industry a bit more inclusive with Technology
-    </h2>
-    <h2>
-        Contact Information:
-    </h2>
-    <p>
-        Location: Brooklyn, NY
-    </p>
-    <br />
-    <p>
-        Email: <a class="link" href="mailto:clc731@gmail.com">Send Email</a>
-    </p>
-    <h2>
-        Biography:
-    </h2>
-    <div id="biography">
-        Christina Louis-Charles was introduced to Technology by her cousin at age 7, dabbling in both Hardware and Software. Deciding that she was nervous to take the Technology route so early, she decided to go into Education. She graduated from Skidmore College with a Bachelors Degree in Education. Shortly after graduating, she entered the Real Estate World as an Administrative Assistant, where she realized that her true passion was being a part of the Fashion World. So combining her young passion for Technology and her inate passion for Fashion, Christina decided to further immerse herself in Technology, focusing on Software Engineering. Christina's eagerness for learning paired with her ability to work on a team and take criticism demonstrates a well-rounded team player and a want to better herself in Technology.
-    </div>
-    <div id="Resume">
-        <h2>
-            Resume
-        </h2>
-        <a class="link" href="https://drive.google.com/file/d/119mInQwc6zT25E5e22pfcZOgfWGl05yt/view?ths=true"> Click to View Resume</a>
-    </div>
-    <div id="Projects">
-        <h1>
-            Flower Matching Game
-        </h1>
-        <p>
-            This first project was designed using HTML, CSS, and JS. I was very interested in CSS at this point and wanted to play around with a lot of different styling.
-        </p>
-        <a class="link" href="https://christinaabi.github.io/FlowerMatchingGame/" target="_blank">Play Flower Matching Game!</a><br/>
-        <a class="link" href="https://github.com/ChristinaAbi/FlowerMatchingGame">View Flower Matching Game Repository</a>
-        <br/>
-        <h1>
-            Fashionyr
-        </h1>
-        <p>
-            This second project was designed using Node, Mongoose and JSX. I wanted to create a Full Stack Application geared towards the Fashion Industry that allows users to create, read, update and delete a blog post. They also have the ability to upload a picture using a URL.
-        </p>
-        <a class="link" href="#" target="_blank">Fashionyr Application</a><br/>
-        <a class="link" href="https://github.com/ChristinaAbi/Fashionyr">View Fashionyr Repository</a>
-        <br/>
-        <h1>
-            Restaurant Finder
-        </h1>
-        <p>
-            This third project was a collaborative project. My team and I spent a week building out both the Frontend and Backend of this application to produce one that allowed users to sign up, login, and add their favorite restaurants and bars to their profile. This project was created using the MERN stack, Mongoose, Express, React, Node JS and uses React Bootsrap for styling.
-        </p>
-        <a class="link" href="https://project-3-front-mern.herokuapp.com/" target="_blank">Restaurant Finder Application</a><br/>
-        <a class="link" href="https://github.com/ChristinaAbi/project-3-front-end">View Restaurant Finder Frontend Repository</a>
-        <a class="link" href="https://github.com/ChristinaAbi/project-3-back-end">View Restaurant Finder Backend Repository</a>
-        <br/>
-        <h1>
-            Spotlight
-        </h1>
-        <p>
-            This fourth project was inspired by an artist friend of mine. It was the first project done using Ruby on Rails as the Backend and React as the Frontend. With such a short deadline (24hrs), I was able to have users see the featured Artists and submit their artwork and biography to become a feature Artist themselves. There are some technical issues due to timing, such as the backend only being deployed.
-        </p>
-        <a class="link" href="https://spotlight-app-api.herokuapp.com/" target="_blank">Spotlight Artist Application</a><br/>
-        <a class="link" href="https://github.com/ChristinaAbi/Spotlight_Frontend">View Spotlight Artist App Frontend Repository</a>
-        <a class="link" href="https://github.com/ChristinaAbi/spotlight_backend">View Spotlight Artist App Backend Repository</a>
-        <br/>
-        <h1>
-            StyleHub
-        </h1>
-        <p>
-            My final project, StyleHub uses Ruby on Rails for the API and React for the Frontend. Although it doesn't quite work yet, this project has Ruby authentication on the backend and allows users to request a stylist for their special day! 
-        </p>
-        <a class="link" href="#" target="_blank">StyleHub Application</a><br/>
-        <a class="link" href="#">View StyleHub App Frontend Repository</a>
-        <a class="link" href="#">View StyleHub App Backend Repository</a>
-    </div>
-    <nav class="breadcrumb is-medium has-bullet-separator" aria-label="breadcrumbs">
-        <ul>
-          <li><a onclick="bio()">Biography</a></li>
-          <li><a onclick="resume()">Resume</a></li>
-          <li><a onclick="projects()">Projects</a></li>
-          <li><a href="https://www.linkedin.com/in/christina-louis-charles-5149255b/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/ChristinaAbi" target="_blank">GitHub</a></li>
-        </ul>
-      </nav>
-      <div>
+    <section class="hero">
+        <div class="container">
+            <h1 class="title">
+                Christina Codes!
+            </h1>
+            <h2 class="subtitle">
+                Dedicated to making the Fashion Industry a bit more inclusive with Technology
+            </h2>
+            <h2>
+                Contact Information:
+            </h2>
+            <p>
+                Location: Brooklyn, NY
+            </p>
+            <br />
+            <p>
+                Reach out to Christina: <a class="link" href="mailto:clc731@gmail.com">Send Email</a>
+            </p>
+            
+            <div id="biography">
+                <h2>
+                Biography:
+                </h2>
+                <p>
+                Christina Louis-Charles was introduced to Technology by her cousin at age 7, dabbling in both Hardware
+                and Software. Deciding that she was nervous to take the Technology route so early, she decided to go
+                into Education. She graduated from Skidmore College with a Bachelors Degree in Education. Shortly after
+                graduating, she entered the Real Estate World as an Administrative Assistant, where she realized that
+                her true passion was being a part of the Fashion World. So combining her young passion for Technology
+                and her inate passion for Fashion, Christina decided to further immerse herself in Technology, focusing
+                on Software Engineering. Christina's eagerness for learning paired with her ability to work on a team
+                and take criticism demonstrates a well-rounded team player and a want to better herself in Technology.
+                </p>
+            </div>
+            <div id="resume">
+                <h2>
+                    Resume
+                </h2>
+                <a class="link" href="https://drive.google.com/file/d/119mInQwc6zT25E5e22pfcZOgfWGl05yt/view?ths=true">
+                    Click to View Resume</a>
+            </div>
+            <div id="projects">
+                <h1>
+                    Flower Matching Game
+                </h1>
+                <p>
+                    This first project was designed using HTML, CSS, and JS. I was very interested in CSS at this point
+                    and wanted to play around with a lot of different styling.
+                </p>
+                <a class="link" href="https://christinaabi.github.io/FlowerMatchingGame/" target="_blank">Play Flower
+                    Matching Game!</a><br />
+                <a class="link" href="https://github.com/ChristinaAbi/FlowerMatchingGame">View Flower Matching Game
+                    Repository</a>
+                <br />
+                <h1>
+                    Fashionyr
+                </h1>
+                <p>
+                    This second project was designed using Node, Mongoose and JSX. I wanted to create a Full Stack
+                    Application geared towards the Fashion Industry that allows users to create, read, update and delete
+                    a blog post. They also have the ability to upload a picture using a URL.
+                </p>
+                <a class="link" href="#" target="_blank">Fashionyr Application</a><br />
+                <a class="link" href="https://github.com/ChristinaAbi/Fashionyr">View Fashionyr Repository</a>
+                <br />
+                <h1>
+                    Restaurant Finder
+                </h1>
+                <p>
+                    This third project was a collaborative project. My team and I spent a week building out both the
+                    Frontend and Backend of this application to produce one that allowed users to sign up, login, and
+                    add their favorite restaurants and bars to their profile. This project was created using the MERN
+                    stack, Mongoose, Express, React, Node JS and uses React Bootsrap for styling.
+                </p>
+                <a class="link" href="https://project-3-front-mern.herokuapp.com/" target="_blank">Restaurant Finder
+                    Application</a><br />
+                <a class="link" href="https://github.com/ChristinaAbi/project-3-front-end">View Restaurant Finder
+                    Frontend Repository</a>
+                <a class="link" href="https://github.com/ChristinaAbi/project-3-back-end">View Restaurant Finder Backend
+                    Repository</a>
+                <br />
+                <h1>
+                    Spotlight
+                </h1>
+                <p>
+                    This fourth project was inspired by an artist friend of mine. It was the first project done using
+                    Ruby on Rails as the Backend and React as the Frontend. With such a short deadline (24hrs), I was
+                    able to have users see the featured Artists and submit their artwork and biography to become a
+                    feature Artist themselves. There are some technical issues due to timing, such as the backend only
+                    being deployed.
+                </p>
+                <a class="link" href="https://spotlight-app-api.herokuapp.com/" target="_blank">Spotlight Artist
+                    Application</a><br />
+                <a class="link" href="https://github.com/ChristinaAbi/Spotlight_Frontend">View Spotlight Artist App
+                    Frontend Repository</a>
+                <a class="link" href="https://github.com/ChristinaAbi/spotlight_backend">View Spotlight Artist App
+                    Backend Repository</a>
+                <br />
+                <h1>
+                    StyleHub
+                </h1>
+                <p>
+                    My final project, StyleHub uses Ruby on Rails for the API and React for the Frontend. Although it
+                    doesn't quite work yet, this project has Ruby authentication on the backend and allows users to
+                    request a stylist for their special day!
+                </p>
+                <a class="link" href="#" target="_blank">StyleHub Application</a><br />
+                <a class="link" href="#">View StyleHub App Frontend Repository</a>
+                <a class="link" href="#">View StyleHub App Backend Repository</a>
+            </div>
+            <nav class="breadcrumb is-medium has-bullet-separator" aria-label="breadcrumbs">
+                <ul>
+                    <li><a onclick="bio()">Biography</a></li>
+                    <li><a onclick="resume()">Resume</a></li>
+                    <li><a onclick="projects()">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/christina-louis-charles-5149255b/"
+                            target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/ChristinaAbi" target="_blank">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+        </section>
+    <div>
         <script src="app.js"></script>
     </div>
 </body>
+
 </html>
