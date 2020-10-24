@@ -1,3 +1,3 @@
-Welcome to Christina Codes!, the protfolio for Christina Louis-Charles
+Welcome to Christina Codes!
 
 Live Portfolio: https://christinaabi.github.io/
